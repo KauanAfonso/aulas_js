@@ -12,10 +12,20 @@ let materia = prompt("Qual sua materia favorita? ")
 document.body.innerHTML += `<p>${materia}</p>`
 
 
-
-
-
 //confirm - serve para permitir escolha 
 confirm("Ainda está aqui? ")
 
-console.log(materia)
+//exexemplo
+//O Number é um funcao para definir qual a melhor forma de tipar o numero
+//sendo melhor para int ou flaot
+let nota1 = Number(prompt("Digite sua nota 1"))
+let nota2 = Number(prompt("Digite sua nota 2"))
+let media = (nota1 + nota2) / 2
+document.body.innerHTML += `<p>Sua media : ${media}</p>`
+
+if(media >= 5){
+    alert("Aprovado")
+}else{
+    alert("Reprovado")
+}
+
