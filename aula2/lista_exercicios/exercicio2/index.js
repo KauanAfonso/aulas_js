@@ -3,5 +3,7 @@ const verificar_par = (numero) =>{
     return resultado
 }
 
+alert("Programa que verificar se um numero é par ou impar")
+
 numero = Number(prompt("Digite um número: "))
 alert(verificar_par(numero))
