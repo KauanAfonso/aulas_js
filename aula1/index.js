@@ -40,6 +40,49 @@ for (let i = 100; i > 50; i--) {
 //while - nescesito de uma condição, faço enquanto for correspondente a condição
 contador = 0
 while(contador<=100){
-    document.body.innerHTML += `<h1>seu contador está em ${contador}`
+    document.body.innerHTML += `<h1>seu contador está em ${contador}</h2>`
     contador+=10
+}
+
+
+//do while - executa pelo menos uma vez e ao final verifica a condição
+let i = 1;
+do{
+    if( i % 2 == 0){
+        document.body.innerHTML += `<h2>${i} É par <br></h2>`
+    }else{
+        document.body.innerHTML += `<h2>${i} É impar <br> </h2>` 
+    }
+
+    i+=1
+}while( i <= 20)
+
+
+//switch_case - Mutltipla escola mediante a condição
+
+let opcao = Number(prompt("Digite a opção 1 - soma, 2-subtração, 3-multiplicação, 4-Divisão"))
+
+let valor1 = Number(prompt("digite um valor"))
+let valor2 = Number(prompt("digite um valor"))
+
+switch(opcao){
+    case 1:
+        soma = valor1 + valor1
+        alert(`A soma de ${valor1} + ${valor2} = ${soma}`)
+        break
+    case 2:
+        sub = valor1 - valor1
+        alert(`A sub de ${valor1} - ${valor2} = ${sub}`)
+        break
+    case 3:
+        mult = valor1 - valor1
+        alert(`A mult de ${valor1} * ${valor2} = ${mult}`)
+        break
+    case 4:
+        div = valor1 / valor1
+        alert(`A div de ${valor1} / ${valor2} = ${div}`)
+        break
+    
+    default:
+        alert("opção inválida")
 }
