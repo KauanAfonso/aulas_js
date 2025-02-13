@@ -23,9 +23,23 @@ let nota2 = Number(prompt("Digite sua nota 2"))
 let media = (nota1 + nota2) / 2
 document.body.innerHTML += `<p>Sua media : ${media}</p>`
 
+//Estruturas de decisão
 if(media >= 5){
     alert("Aprovado")
 }else{
     alert("Reprovado")
 }
 
+
+//Laços de repetição
+//for - normalmente sei quantas interações eu faço
+for (let i = 100; i > 50; i--) {
+    document.body.innerHTML += `<p>o número agora ${i}<p>`
+}
+
+//while - nescesito de uma condição, faço enquanto for correspondente a condição
+contador = 0
+while(contador<=100){
+    document.body.innerHTML += `<h1>seu contador está em ${contador}`
+    contador+=10
+}
