@@ -30,5 +30,5 @@ alert('Programa que retorna imc')
 let peso = Number(prompt("Digite seu peso "))
 let altura = Number(prompt("Digite sua altura "))
 
-alert(calcular_imc(peso,altura))
+alert(calcular_imc(peso,altura)) //teste
 
