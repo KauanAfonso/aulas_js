@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Zen+Old+Mincho&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header{
@@ -54,8 +57,15 @@ header nav ul{
 
 .redes_sociais{
     display: flex;
+    padding: 0 !important;
     margin-top: 0.8rem;
 }
+
+.redes_sociais ol{
+    padding: 0 !important;
+}
+
 .redes_sociais ol a img{
     max-width: 40px;
+    
 }
