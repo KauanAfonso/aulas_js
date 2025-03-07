@@ -15,7 +15,9 @@
 }
 
 header{
-    background: linear-gradient(to left,#204f7a, #AD1B95);
+    background: linear-gradient(to left, #8e44ad, #3498db);
+
+
 }
 
 header nav ul{
@@ -125,4 +127,9 @@ header nav ul{
 
 .experiencia-item ul li {
     margin-bottom: 0.5rem;
+}
+
+.cards_atividades{
+    background: linear-gradient(to left, #8e44ad, #3498db);
+    padding: 8rem;
 }
