@@ -8,6 +8,7 @@
     font-family: "Poiret One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 .container{
@@ -90,6 +91,7 @@ header nav ul{
 .titulo{
     font-size: 2.5em;
     margin-bottom: 1rem;
+    color: #333333;
 }
 
 .experiencia p {
@@ -132,4 +134,12 @@ header nav ul{
 .cards_atividades{
     background: linear-gradient(to left, #8e44ad, #3498db);
     padding: 8rem;
+}
+
+#titulo_atividades{
+    color: white;
+}
+
+.card{
+    padding: 3rem;
 }
