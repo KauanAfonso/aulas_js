@@ -1,0 +1,9 @@
+Abstração: Entendimento do mundo real em computacional.
+
+Modularidade: Fazer códigos reutilizáveis.
+
+Estrutura de Dados: int / float / String / Boolean
+
+Simplicidade: int/float/string/Boolean/listas/tuplas/dicionarios/conjuntos.
+
+Simplicidade: mantenível
