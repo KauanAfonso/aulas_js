@@ -11,12 +11,11 @@
 
 const verificar_nome_lista = (lista, nome) => {
     let res = 'Não encontrado'
-    lista.forEach(elemento,index => {
-        if (elemento == nome) {
+    lista.forEach((elemento,index) => {
+        if (elemento.toUpperCase() == nome.toUpperCase()) {
             res =`O nome está na posição ${index}`
         }
     })
-
 
     return res
 }
@@ -24,4 +23,4 @@ const verificar_nome_lista = (lista, nome) => {
 
 let lista_nome = ['Kauan', "Cris", "Pedro", "Marcos", "João", "Arthur", "Miguel", "Jorge", "Natan"]
 nome = prompt("Digite um nome para buscar na lista: ")
-console.log(verificar_nome_lista(lista_nome, nome))
+alert(verificar_nome_lista(lista_nome, nome))
