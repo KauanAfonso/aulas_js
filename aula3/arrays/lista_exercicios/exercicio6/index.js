@@ -9,15 +9,19 @@
 
 
 
-const verificar_nome_lista = (lista,nome) =>{
-    const verificar = lista.filter((elemento, index) =>{
-        if(elemento == nome){
-            return `O nome está na posição ${index}`
-        }else{return `Não encontrado !`}
+const verificar_nome_lista = (lista, nome) => {
+    let res = 'Não encontrado'
+    lista.forEach(elemento,index => {
+        if (elemento == nome) {
+            res =`O nome está na posição ${index}`
+        }
     })
 
-    return verificar
+
+    return res
 }
 
 
 let lista_nome = ['Kauan', "Cris", "Pedro", "Marcos", "João", "Arthur", "Miguel", "Jorge", "Natan"]
+nome = prompt("Digite um nome para buscar na lista: ")
+console.log(verificar_nome_lista(lista_nome, nome))
