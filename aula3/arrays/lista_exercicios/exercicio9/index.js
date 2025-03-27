@@ -8,11 +8,6 @@ Carregue e apresente um vetor C com os valores de A e B alternados.
 */
 
 
-const alternar_vetores = (vetor1, vetor2) => {
-    vetor3 = []
-    
-}   
-
 let vetor1 = []
 let vetor2 = []
 let vetor3 = []
