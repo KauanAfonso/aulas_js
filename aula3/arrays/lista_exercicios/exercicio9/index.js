@@ -13,11 +13,22 @@ const alternar_vetores = (vetor1, vetor2) => {
     
 }   
 
-let vetor1 = [1, 2, 3, 4, 5]
-let vetor2 = [6, 7, 8, 9, 10]
+let vetor1 = []
+let vetor2 = []
+let vetor3 = []
 let numero
-do {
-    
-}while()
+i = 10
 
-alert(`Primeiro vetor: ${minha_lista}\n Vetor com metade dos valores: ${exercicio_8(minha_lista)}`)
+do {
+    numero = parseFloat(prompt("Digite um número para o primeiro número"))
+    vetor1.push(numero)
+    vetor3.push(numero)
+
+    numero = parseFloat(prompt("Digite um número para o primeiro número"))
+    vetor2.push(numero)
+    vetor3.push(numero)
+    i--
+
+}while(i>0)
+
+alert(`Primeiro vetor: [${vetor1}]\n Segundo vetor: [${vetor2}]\n Terceiro vetor, a mistura dos outros dois: [${vetor3}]`)
