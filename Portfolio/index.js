@@ -8,7 +8,7 @@ let contador = 0
 base_links.forEach(element => {
 
 
-    area_row.innerHTML +=  `<div class="col-3" style="padding: 15px;">
+    area_row.innerHTML +=  `<div class="col-md-3 col-sm-12 col-lg-3" style="padding: 15px;">
         <div class="card ${element.Assunto}" style="width: 18rem; !important">
             <div class="card-body">
                 <h5 class="card-title">${element.exercicio}</h5>
