@@ -36,7 +36,7 @@ header nav ul{
 }
 
 #img_principal{
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .introducao{
@@ -115,9 +115,10 @@ header nav ul{
     width: 100%;
 }
 
+
 .experiencia-item h3 {
     font-size: 1.8em;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .experiencia-item .periodo {
@@ -140,10 +141,14 @@ header nav ul{
     padding: 8rem;
 }
 
+
 #titulo_atividades{
     color: white;
 }
 
+.tecnlogias_utilizadas{
+    margin-top: 5rem;
+}
 
 .div_tecnologias h2{
     margin-top: 1rem !important;
@@ -151,9 +156,12 @@ header nav ul{
 
 .div_tecnologias ol{ 
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between; /*caso for adicionar mais tec mude para center*/
     list-style: none;
-    padding: 5rem;
+    padding: 2rem;
+    gap: 0.5rem;
 }
 
 .div_tecnologias ol li{
@@ -161,11 +169,50 @@ header nav ul{
     
 }
 
-.card{
+/* .card{
     padding: 3rem;
 }
 
 .Array{
 
+} */
+@media(max-width: 992px) {
+    #img_principal{
+        max-width: 400px;
+    }
 }
 
+@media(max-width: 778px) {
+    #img_principal{
+        max-width: 300px;
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width: 576px) {
+    #img_principal{
+        max-width: 230px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 478px) {
+
+    .cards_atividades{
+        padding: 0.8rem;
+    }
+
+    .introducao{
+        margin: 0.8rem;
+    }
+
+    .introducao p{
+        font-size: 0.9em;
+    }
+
+    #img_principal{
+        display: none;
+    }
+}
+
+@
