@@ -12,8 +12,8 @@ function App() {
     //chamando o estilo pela importação estilos
     //Tags fantasmas servem para que eu consiga usar duas tags no mesmo componente
     <>
-      <Cabecalho />
       <BarraNavegacao />
+      <Cabecalho />
       <Conteudo />
       <Footer/>
       

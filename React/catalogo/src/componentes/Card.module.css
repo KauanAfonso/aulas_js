@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    width: 400px;
+    margin: 30px;
+    overflow: hidden ;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+figure{
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+figure img{
+    max-width: 400px;
+    text-align: center;
+}
+
