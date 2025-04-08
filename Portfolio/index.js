@@ -11,10 +11,10 @@ base_links.forEach(element => {
     area_row.innerHTML +=  `<div class="col-md-3 col-sm-12 col-lg-3" >
         <div class="card ${element.Assunto}" style="width: 15rem; height: 18rem !important; padding:1.2rem;">
             <div class="card-body">
-                <h5 class="card-title">${element.exercicio}</h5></strong>
-                <h5 class="card-title">${element.Assunto}</h5>
+                <h5 class="card-title" >${element.exercicio}</h5></strong>
+                <h5 class="card-title p_${element.Assunto}">${element.Assunto}</h5>
                 <p class="card-text">${element.descricao}</p>
-                <a href=${element.link} class="btn btn-light">Go somewhere</a>
+                <a href=${element.link} class="btn btn-light">Visualizar</a>
             </div>
         </div>
     </div>`;
