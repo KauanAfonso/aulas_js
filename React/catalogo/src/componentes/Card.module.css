@@ -1,23 +1,22 @@
 .container{
-    position: relative;
-    width: 400px;
-    margin: 30px;
+    width: 300px;
+    /* margin-top: 30px; */
+    background-color: rgb(235, 235, 235);
     overflow: hidden ;
     border-radius: 10px;
-    color: aliceblue;
-    padding: 1rem;
+    color: rgb(32, 32, 32);
+    /* padding-top: 1rem; */
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    height: auto;
     
-}
-figure{
-    display: flex;
-    flex-wrap: wrap ;
 }
 
 figure img{
-    max-width: 400px;
+    max-width: 300px;
+    max-height: auto;
     text-align: center;
 }
 

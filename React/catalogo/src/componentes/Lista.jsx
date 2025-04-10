@@ -2,6 +2,7 @@ import axios from "axios";
 import React, {useState, useEffect} from "react";
 import { Card } from "./Card";
 import { Modal } from "./Modal";
+import estilos from "./Lista.module.css"
 
 
 const APi_URl = 'https://api.themoviedb.org/3';
@@ -26,7 +27,7 @@ export function Lista() {
     //()parametros, {}script de programação, []dependencias
     //O Efect é a renderização do react
     useEffect(() => {
-        axios.get(`${APi_URl}/movie/popular?api_key=${API_KEY}&language=pt-BR`)
+        axios.get(`${APi_URl}/movie/popular?api_key=${API_KEY}&language=pt-BR&Page=3`)
             .then(response => {
                 console.log(response.data.results);
                 setMovies(response.data.results);

@@ -1,9 +1,9 @@
-.container{
+figure{
     display: flex;
     flex-wrap: wrap;
-    width: 30px;
-    gap: 10px;
+    width: auto;
+    gap: 2rem;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
