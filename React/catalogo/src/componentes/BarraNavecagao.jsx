@@ -7,10 +7,10 @@ export function BarraNavegacao(){
         <nav className={estilos.container}>
             <ul>
                 <li>Home
-                    <span class="material-symbols-outlined">home</span>
+                    <span className="material-symbols-outlined">home</span>
                 </li>
-                <li>Filmes<span class="material-symbols-outlined">tv</span></li>
-                <li>Perfil<span class="material-symbols-outlined">person</span></li>
+                <li>Filmes<span className="material-symbols-outlined">tv</span></li>
+                <li>Perfil<span className="material-symbols-outlined">person</span></li>
             </ul>
         </nav>
     )
