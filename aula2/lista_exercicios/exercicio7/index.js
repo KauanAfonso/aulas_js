@@ -27,8 +27,8 @@ const calcular_imc = (peso, altura) =>{
 }
 
 alert('Programa que retorna imc')
-let peso = Number(prompt("Digite seu peso "))
-let altura = Number(prompt("Digite sua altura "))
+let peso = Number(prompt("Digite seu peso em KG: ex 75 "))
+let altura = Number(prompt("Digite sua altura: ex: 1.80 "))
 
 alert(calcular_imc(peso,altura)) 
 

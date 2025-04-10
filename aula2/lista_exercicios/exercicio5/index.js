@@ -1,4 +1,4 @@
-const calcular_area = (base, altura) =>{
+const calcular_area = (base=0, altura=0) =>{
     return base * altura
 }
 
