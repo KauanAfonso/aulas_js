@@ -3,7 +3,7 @@
    apresente o dobro de cada valor armazenado.
 */
 
-
+//calculando o dobro
 const retornar_dobro = (lista) => {
     let lista_dobro = lista.map((num) => {
         return num * 2
@@ -13,4 +13,14 @@ const retornar_dobro = (lista) => {
 }
 
 
-console.log(retornar_dobro([2,15,20,6,4]))
+//Pedir os valores ao usuario
+let i=1
+let lista = []
+while(i<=5){
+    numero = Number(prompt("Digite um número"))
+    lista.push(numero)
+    i++
+}
+    
+
+alert("Lista dobrada: " + retornar_dobro(lista))

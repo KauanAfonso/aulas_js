@@ -12,14 +12,17 @@ let vetor1 = []
 let vetor2 = []
 let vetor3 = []
 let numero
-i = 10
+i = 5
+
+
+alert('Programa que armazena valores de dois vetores de forma alternada')
 
 do {
-    numero = parseFloat(prompt("Digite um número para o primeiro número"))
+    numero = Number(prompt("Digite um número para o VETOR 1"))
     vetor1.push(numero)
     vetor3.push(numero)
 
-    numero = parseFloat(prompt("Digite um número para o primeiro número"))
+    numero = Number(prompt("Digite um número para o VETOR 2"))
     vetor2.push(numero)
     vetor3.push(numero)
     i--

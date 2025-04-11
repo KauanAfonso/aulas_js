@@ -3,6 +3,8 @@
 e apresente as idades acima da média.
 */
 
+
+//Aqui descobriremos qual a media de idade
 const media_aritimetica = (lista) => {
     let media = lista.reduce((acumulador,valor) => {
         return acumulador+=valor
@@ -12,11 +14,12 @@ const media_aritimetica = (lista) => {
 }
 
 
+//
 const media_idades = (idades) =>{
     let media = media_aritimetica(idades)
     let contador = 0
 
-    console.log(`media de idades: ${media}`)
+    alert(`media de idades: ${media}`)
     idades.forEach(idade => {
         (idade > media) ?contador+=1:contador
     });
@@ -24,6 +27,15 @@ const media_idades = (idades) =>{
     return contador
 }
 
-let idades = [8,15,66,40,2,9,34,18]
-console.log(idades)
-console.log(media_idades(idades) + " Pessoa(s) tem a idade maior que a media de idades")
+
+alert('Programa que retorna quantas pessoas tem idade acima da media de idades ')
+
+let i=1
+let lista = []
+while(i<=20){
+    numero = Number(prompt("Digite uma idade: ex: 20"))
+    lista.push(numero)
+    i++
+}
+
+alert(media_idades(lista) + " Pessoa(s) tem a idade maior que a media de idades")

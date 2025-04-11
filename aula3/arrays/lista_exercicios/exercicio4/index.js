@@ -5,20 +5,34 @@ Caso não tenha nenhum número par apresente a mensagem “Todos os números sã
 
 */
 
-
+//Função que faz a verificação
 const verificar_n_pares = (lista) => {
 
+    let contador = 0
     let numeros_pares = lista.map((num) => {
         if(num % 2 == 0){
-            return num
+            contador+=1 // Adiciona mais um, ou seja tem numero par na lista
+            return `É par: ${num}\n`
+        
         }else{
-            return "Não é par"
+            return `Não é par: ${num}\n`
         }
     })
 
-    return numeros_pares
+    return (contador === 0) ? 'Todos os números são ímpares' : numeros_pares;
+
 }
 
-let numeros = [10,5,8,6,4,9]
-console.log(numeros)
-console.log(verificar_n_pares(numeros))
+
+alert("Programa que verifica quais sao pares ou não !")
+
+let i=1
+let lista = []
+while(i<=10){
+    numero = Number(prompt("Digite um número"))
+    lista.push(numero)
+    i++
+}
+
+alert(lista)
+alert(verificar_n_pares(lista))

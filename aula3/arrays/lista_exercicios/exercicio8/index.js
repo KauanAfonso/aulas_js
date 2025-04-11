@@ -6,7 +6,7 @@ Apresente os valores dos dois vetores.
 
 */
 
-
+//Função que retorna a metade dos valores em B
 const exercicio_8 = (lista) => {
     let novo_vetor = lista.map((numero) => {
         return numero/2
@@ -15,6 +15,8 @@ const exercicio_8 = (lista) => {
     return novo_vetor
 }
 
+
+alert('Esse programa retorna uma nova lista com valores na metade')
 let minha_lista = [10, 5, 6, 9, 8, 15, 3, 6, 33, 4]
 
 alert(`Primeiro vetor: ${minha_lista}\n Vetor com metade dos valores: ${exercicio_8(minha_lista)}`)
