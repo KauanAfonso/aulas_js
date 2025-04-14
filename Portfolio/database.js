@@ -1,7 +1,7 @@
 export const base_links = [
      // PARTE DE LOP
     {
-        'id': 1, "aula": 1, "nome": 'Aula de javascript 01', "exercicio": "Exercicio 01", "descricao": "Desing FIGMA de UI/UX feito para estudos das leis de Nielsen", "Assunto": "UX/UI", 'link': "", 
+        'id': 1, "aula": 1, "nome": 'Aula de javascript 01', "exercicio": "Exercicio 01", "descricao": "Desing FIGMA de UI/UX feito para estudos das leis de Nielsen", "Assunto": "UX/UI", 'link': "https://www.figma.com/design/BoQK7DLv49aYxvyeHSgfGR/Untitled?node-id=0-1&t=Vesis2ZZfQCi37zl-1", 
     },
     {
         'id': 2, "aula": 2, "nome": 'Aula de javascript 02', "exercicio": "Exercicio 02", "descricao": "Programa que retorna a diferença de dois números", "Assunto": "Lógica de Programação", 
